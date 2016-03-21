@@ -1,0 +1,14 @@
+ 连接到服务器
+
+运行 irssi
+执行
+
+/server irc.freenode.net
+
+执行
+
+/join #archlinux-cn
+
+退出 irssi 的命令是
+
+/quit
