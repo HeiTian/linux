@@ -1,0 +1,23 @@
+命令提示符
+
+这是一种 Zsh 中简单快速设置彩色提示符的方法。首先确保 .zshrc 
+中配置了自动加载提示符。具体配置如下：
+
+~/.zshrc
+
+autoload -U promptinit
+promptinit
+
+然后你可以运行下面的命令查看可用的提示符：
+
+$ prompt -l
+
+使用下面命令来启动其中一种提示符，例如启动 "walters" 提示符：
+
+$ prompt walters
+
+使用下面的命令查看所有可用的主题：
+
+$ prompt -p
+
+
